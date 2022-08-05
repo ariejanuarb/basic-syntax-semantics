@@ -8,6 +8,7 @@ func main() {
 	fmt.Println(len(chicken)) // 2
 	fmt.Println(chicken)
 
+	// menghapus key "januari" dari map chicken
 	delete(chicken, "januari")
 
 	fmt.Println(len(chicken)) // 1

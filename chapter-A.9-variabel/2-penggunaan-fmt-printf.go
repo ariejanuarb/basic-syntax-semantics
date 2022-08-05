@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	var firstName string = "john"
+	var firstName string
+	firstName = "john"
 
 	var lastName string
 	lastName = "wick"
